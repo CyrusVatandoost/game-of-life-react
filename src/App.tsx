@@ -1,5 +1,11 @@
+import GameOfLife from "./components/GameOfLife";
+
 function App() {
-  return <span>Hello, World!</span>;
+    return (
+        <div className="h-screen w-screen overflow-hidden">
+            <GameOfLife />
+        </div>
+    );
 }
 
 export default App;
